@@ -38,7 +38,6 @@ class RunningLight {
       currentLed = 0;
     }
 
-    // Налаштування пінів
     void begin() {
       pinMode(latchPin, OUTPUT);
       pinMode(clockPin, OUTPUT);
